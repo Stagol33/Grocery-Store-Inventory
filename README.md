@@ -27,7 +27,7 @@ A Python-based command-line application that manages a grocery store's inventory
 ````bash
 git clone git@github.com:Stagol33/Grocery-Store-Inventory.git
 cd Grocery-Store-Inventory
-    ```
+```
 
 2. **Create and activate a virtual environment:**
 
