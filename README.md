@@ -24,7 +24,7 @@ A Python-based command-line application that manages a grocery store's inventory
 
 1. **Clone the repository:**
 
-````bash
+```bash
 git clone git@github.com:Stagol33/Grocery-Store-Inventory.git
 cd Grocery-Store-Inventory
 ```
@@ -34,7 +34,7 @@ cd Grocery-Store-Inventory
 ```bash
 python3 -m venv env
 source env/bin/activate # On Windows: .\env\Scripts\activate
-````
+```
 
 3. **Install dependencies:**
 
