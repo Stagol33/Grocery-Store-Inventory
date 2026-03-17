@@ -29,17 +29,19 @@ A Python-based command-line application that manages a grocery store's inventory
    Create and activate a virtual environment:
    ```
 
+Bash
 python3 -m venv env
 source env/bin/activate # On Windows: .\env\Scripts\activate
 Install dependencies:
 
+Bash
 pip install sqlalchemy
 Prepare Data Files:
 Ensure brands.csv and inventory.csv are in the root directory.
 
 Run the Application:
 
-python3 app.py
+python app.py
 📂 Project Structure
 app.py: Main application logic, database models, and menu system.
 
@@ -51,6 +53,7 @@ inventory.csv: Initial product inventory data.
 
 requirements.txt: List of Python dependencies.
 
+📋 Extra Credit Requirements Met
 Duplicate Prevention: Implemented logic to check for existing products and only keep the most recent update.
 
 Edit/Delete Functionality: Users can modify or remove records directly from the "View Product" menu.
