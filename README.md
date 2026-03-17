@@ -23,25 +23,34 @@ A Python-based command-line application that manages a grocery store's inventory
 ## 📦 Installation & Setup
 
 1. **Clone the repository:**
-   ```bash
-   git clone git@github.com:Stagol33/Grocery-Store-Inventory.git
-   cd Grocery-Store-Inventory
-   Create and activate a virtual environment:
-   ```
 
-Bash
+````bash
+git clone git@github.com:Stagol33/Grocery-Store-Inventory.git
+cd Grocery-Store-Inventory
+    ```
+
+2. **Create and activate a virtual environment:**
+
+```bash
 python3 -m venv env
 source env/bin/activate # On Windows: .\env\Scripts\activate
-Install dependencies:
+````
 
-Bash
+3. **Install dependencies:**
+
+```bash
 pip install sqlalchemy
-Prepare Data Files:
-Ensure brands.csv and inventory.csv are in the root directory.
+```
 
-Run the Application:
+4. **Prepare Data Files:**
+   Ensure brands.csv and inventory.csv are in the root directory.
 
+5. **Run the Application:**
+
+```bash
 python app.py
+```
+
 📂 Project Structure
 app.py: Main application logic, database models, and menu system.
 
